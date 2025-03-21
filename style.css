@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1, h2{
+    font-family: 'Nike', sans-serif;
+    font-weight:lighter ;
+}
+
+
+p, a{
+    font-family: "Outfit", sans-serif;
+}
+
+.front-page{
+    height: 100vh;
+}
+
+.header-logo{
+    width: 100px;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    z-index: 100;
+}
+
+.header p{
+    font-size: 15px;
+    letter-spacing: 6px;
+    padding-top: 25px;
+}
+
+.col{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.col1 h1{
+    font-size: 300px;
+}
+
+
+.col1 p{
+    font-size: 50px;
+    letter-spacing: 35px;
+    margin-left: 115px;
+}
+
+.col2 img{
+    width: 600px;
+    object-fit: cover;
+}
+
+.nav-bar{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 20px;
+    gap: 30px;
+    margin-left: 48px;
+    background-color: black;
+    width: 280px;
+    padding: 4px 10px;
+    border-radius: 8px;
+    z-index: 100;
+}
+
+ul{
+    display: flex; 
+    gap: 50px;
+    list-style: none;
+}
+
+ul a{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+h2{
+    font-size: 20px;
+}
+
+ul a, h2{
+    color: #fff;
+}
+
+.page2{
+    height: 100vh;
+}
